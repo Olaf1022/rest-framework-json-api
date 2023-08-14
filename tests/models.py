@@ -1,5 +1,5 @@
 from django.db import models
-
+from tests.models import BasicModel
 
 class DJAModel(models.Model):
     """

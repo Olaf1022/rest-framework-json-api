@@ -2,6 +2,7 @@ import json
 from io import BytesIO
 
 import pytest
+from tests.models import BasicModel
 from rest_framework.exceptions import ParseError
 
 from rest_framework_json_api.parsers import JSONParser

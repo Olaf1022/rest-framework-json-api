@@ -1,5 +1,6 @@
 import pytest
 from rest_framework.test import APIClient
+from tests.models import BasicModel
 
 from tests.models import (
     BasicModel,

@@ -1,6 +1,7 @@
 import pytest
 from django.db import models
 import json
+from tests.models import BasicModel
 from io import BytesIO
 from rest_framework_json_api import serializers
 from tests.models import DJAModel, ManyToManyTarget
