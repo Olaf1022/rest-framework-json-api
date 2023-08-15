@@ -7,12 +7,12 @@ from tests.models import (
     ManyToManySource,
     ManyToManyTarget,
 )
-
+  
 
 @pytest.fixture(autouse=True)
 def use_rest_framework_json_api_defaults(settings):
     """
-    Enfroce default settings for tests modules.
+    The Enfroce default settings for tests modules.
 
 
     As for now example and tests modules share the same settings file

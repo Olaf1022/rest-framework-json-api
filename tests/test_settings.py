@@ -1,5 +1,6 @@
 import pytest
-
+import json
+from io import BytesIO
 from rest_framework_json_api.settings import json_api_settings
 
 
