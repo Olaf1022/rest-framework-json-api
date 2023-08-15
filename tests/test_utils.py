@@ -5,6 +5,7 @@ from rest_framework.generics import GenericAPIView
 from rest_framework.response import Response
 from rest_framework.views import APIView
 import json
+from tests.models import BasicModel
 from io import BytesIO
 
 from rest_framework_json_api import serializers
